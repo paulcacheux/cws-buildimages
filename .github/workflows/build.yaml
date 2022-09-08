@@ -32,4 +32,5 @@ jobs:
         with:
           context: .
           platforms: linux/amd64,linux/arm64
-          tags: latest
+          push: true
+          tags: ghcr.io/paulcacheux/cws-centos7:latest
